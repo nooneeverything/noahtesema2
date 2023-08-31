@@ -15,6 +15,13 @@ body {
     font-weight: bold;
     color: navy;  
 }
+
+.p1 {
+    font-size: 20px;
+    width: 30%;
+
+
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -33,12 +40,18 @@ body {
 }
 
 .wrapper img {
+    background-attachment: scroll;
     position: fixed;
     top: 0px;
     right: 0px;
     width: 50%;
     
 }
+
+.img2 {  
+    
+}
+
 .wrapper a {
 
     background: crimson;
