@@ -3,7 +3,7 @@
     box-sizing: border-box;
     
 }
-body {
+body { 
     margin: 0;  
     padding: 0;
     background-color: #E5E4E2; 
@@ -16,7 +16,7 @@ body {
     color: navy;  
 }
 
-.p1 {
+.p1 {  
     font-size: 20px;
     width: 30%;
 
@@ -40,7 +40,7 @@ body {
 }
 
 .wrapper img {
-    background-attachment: scroll;
+    /* background-attachment: fixed; */
     position: fixed;
     top: 0px;
     right: 0px;
@@ -48,9 +48,24 @@ body {
     
 }
 
-.img2 {  
+.img2 {
+    /* border: 2px solid pink; */
+    position: relative;
+    bottom: 555px;
+    left: 444px;
+    height: 100%;
     
+   
 }
+
+.img3 {
+    position: relative;
+    top: 0px;
+    left: 720px;
+    width: 50%;
+    height: 100%;
+}
+
 
 .wrapper a {
 
@@ -71,14 +86,26 @@ body {
     scroll-snap-align: start;
 }
 
-.slides img {
-   /* width: 350px; */
+.title {
+    position: relative;
+    left: 50px;
+}
+.title2 {
+    position: relative;
+    right: 730px;
+}
+
+.p1text {
+    position: relative;
+    right: 223px;
+    top: 130px;
 }
 
 .slides h2 {
     font-size: 70px;
     font-weight: 600;
     max-width: 650px;
+    
 }
 
 .slide1 {
@@ -97,7 +124,7 @@ span:before {
     content: '';
     animation: animate infinite 25s;
 
-}
+} 
 @keyframes animate {
     0%{
         content: 'HTML 5';
@@ -137,3 +164,14 @@ span:before {
     }
 }
 
+.form {
+    
+    
+}
+
+.formtext {
+    font-size: 32px;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
